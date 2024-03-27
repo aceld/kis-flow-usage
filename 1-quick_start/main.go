@@ -13,7 +13,7 @@ func main() {
 	ctx := context.Background()
 
 	// Create a new flow configuration
-	myFlowConfig1 := config.NewFlowConfig("cal_stu_avg_score", common.FlowEnable)
+	myFlowConfig1 := config.NewFlowConfig("CalStuAvgScore", common.FlowEnable)
 
 	// Create new function configuration
 	avgStuScoreConfig := config.NewFuncConfig("AvgStuScore", common.C, nil, nil)
