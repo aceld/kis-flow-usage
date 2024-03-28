@@ -1,0 +1,11 @@
+kistype: func
+fname: AvgStuScore
+fmode: Calculate
+source:
+    name: 学生学分
+    must:
+        - stu_id
+option:
+    default_params:
+        school: TsingHua
+        country: China
