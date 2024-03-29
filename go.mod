@@ -2,7 +2,7 @@ module kis-flow-usage
 
 go 1.18
 
-require github.com/aceld/kis-flow v1.0.2-0.20240326100851-bf15648a62f6
+require github.com/aceld/kis-flow v1.0.2-0.20240329100914-8e9b124ec43e
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
