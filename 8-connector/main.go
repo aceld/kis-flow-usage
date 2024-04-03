@@ -2,9 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/aceld/kis-flow/common"
-	"github.com/aceld/kis-flow/config"
-	"github.com/aceld/kis-flow/flow"
+	"github.com/aceld/kis-flow/file"
 	"github.com/aceld/kis-flow/kis"
 	"sync"
 )
@@ -37,6 +35,7 @@ func RunFlowCalStuAvgScore3(ctx context.Context, flow kis.Flow) error {
 	return nil
 }
 
+/*
 func main() {
 	ctx := context.Background()
 
@@ -167,8 +166,8 @@ func main() {
 
 	return
 }
+*/
 
-/*
 func main() {
 	ctx := context.Background()
 
@@ -212,7 +211,6 @@ func main() {
 
 	return
 }
-*/
 
 func init() {
 	// Register functions
