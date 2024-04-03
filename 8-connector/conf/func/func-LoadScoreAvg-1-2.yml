@@ -1,0 +1,9 @@
+kistype: func
+fname: LoadScoreAvg12
+fmode: Load
+source:
+    name: SourceStuScore
+    must:
+        - stu_id
+option:
+    cname: Score12Cache

@@ -1,0 +1,8 @@
+kistype: flow
+status: 1
+flow_name: CalStuAvgScore12
+flows:
+    - fname: VerifyStu
+    - fname: AvgStuScore12
+    - fname: SaveScoreAvg12
+    - fname: PrintStuAvgScore

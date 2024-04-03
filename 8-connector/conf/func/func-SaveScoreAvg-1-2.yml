@@ -1,0 +1,9 @@
+kistype: func
+fname: SaveScoreAvg12
+fmode: Save
+source:
+    name: SourceStuScore
+    must:
+        - stu_id
+option:
+    cname: Score12Cache

@@ -1,0 +1,5 @@
+kistype: conn
+cname: Score12Cache
+addrs: '127.0.0.1:6379'
+type: redis
+key: stu_score12_avg_

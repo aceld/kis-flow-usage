@@ -1,0 +1,7 @@
+kistype: func
+fname: AvgStuScore3
+fmode: Calculate
+source:
+    name: SourceStuScore
+    must:
+        - stu_id
