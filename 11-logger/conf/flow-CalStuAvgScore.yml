@@ -1,0 +1,16 @@
+kistype: flow
+status: 1
+flow_name: CalStuAvgScore
+flows:
+    - fname: VerifyStu
+      params:
+          school: TsingHua
+          country: China
+    - fname: AvgStuScore
+      params:
+          school: TsingHua
+          country: China
+    - fname: PrintStuAvgScore
+      params:
+          school: TsingHua
+          country: China
