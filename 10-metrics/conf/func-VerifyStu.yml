@@ -1,0 +1,7 @@
+kistype: func
+fname: VerifyStu
+fmode: Verify
+source:
+  name: 学生学分
+  must:
+    - stu_id
